@@ -1,12 +1,24 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace PlayerStats
 {
     public class Player
     {
-        
+        private float highScore;
+        private int playedGame;
+        private int wonGame;
+    }
+}
+
+public float highScore
+{
+    get { return highScore; }
+    set
+    {
+        if (value > highScore)
+        {
+                highScore = value;
+        }
     }
 }
