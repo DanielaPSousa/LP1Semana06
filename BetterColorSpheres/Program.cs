@@ -18,12 +18,6 @@ namespace BetterColorSpheres
             sphere3.Throw();
             sphere3.Throw();
             sphere1.Pop();
-            totalshoots += sphere1.GetTimesThrown;
-            totalshoots += sphere2.GetTimesThrown;
-            totalshoots += sphere3.GetTimesThrown;
-
-            Console.WriteLine(totalshoots);
-
         }
     }       
 }
